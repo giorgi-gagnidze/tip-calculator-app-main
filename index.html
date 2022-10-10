@@ -19,37 +19,42 @@
     <title>Frontend Mentor | Tip calculator app</title>
   </head>
   <body>
-    <img src="./images/logo.svg" alt="main logo" />
-    <main>
-      <form action="">
-        <label for="">bill</label>
-        <input type="number" />
-        <label for="">Select Tip %</label>
+    <img src="./images/logo.svg" alt="main logo" class="main-logo" />
+    <main class="main-container">
+      <form action="" class="main-form__container">
+        <label for="" class="main-form__label bill-label">Bill</label>
+        <input type="number" class="main-form__bill-input-field input-field" />
+        <label for="" class="main-form__label tip-label">Select Tip %</label>
         <div>
-          <button>5%</button>
-          <button>10%</button>
-          <button>15%</button>
-          <button>25%</button>
-          <button>50%</button>
-          <button>Custom</button>
+          <button class="main-form__tip-button button">5%</button>
+          <button class="main-form__tip-button button">10%</button>
+          <button class="main-form__tip-button button">15%</button>
+          <button class="main-form__tip-button button">25%</button>
+          <button class="main-form__tip-button button">50%</button>
+          <button class="main-form__custom-tip-button button">Custom</button>
         </div>
-        <label for="">Number of People</label>
-        <input type="number" />
+        <label for="" class="main-form__label number-label"
+          >Number of People</label
+        >
+        <input
+          type="number"
+          class="main-form__people-input-field input-field"
+        />
       </form>
-      <div>
-        <div>
-          <div>
-            <p>Tip Amount</p>
-            <p>/ person</p>
+      <div class="main-sum__container">
+        <div class="main-sum__container-inside">
+          <div class="main-sum__amount-container">
+            <p class="main-sum__text-1">Tip Amount</p>
+            <p class="main-sum__text-2">/ person</p>
           </div>
-          <p>$</p>
-          <div>
-            <p>Total</p>
-            <p>/ person</p>
+          <p class="main-sum__total">$</p>
+          <div class="main-sum__total-container">
+            <p class="main-sum__text-1">Total</p>
+            <p class="main-sum__text-2">/ person</p>
           </div>
-          <p>$</p>
+          <p class="main-sum__total">$</p>
         </div>
-        <button>Reset</button>
+        <button class="reset-button button">Reset</button>
       </div>
     </main>
     <script src="./JS/script.js"></script>

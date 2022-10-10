@@ -10,6 +10,8 @@
 
 :root {
   --c5e4e7-main-background: hsl(185, 41%, 84%);
+  --ffffff: hsl(0, 0%, 100%);
+  --00474B: hsl(183, 100%, 15%);
 }
 
 /* Main Styles */
@@ -17,4 +19,92 @@
 body {
   font-family: "Space Mono";
   background-color: var(--c5e4e7-main-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-logo {
+  width: 86.66px;
+  height: 53.14px;
+  margin: 50px 0 40.86px 0;
+}
+.main-container {
+  max-width: 375px;
+  background-color: var(--ffffff);
+  box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
+  border-radius: 25px 25px 0px 0px;
+  padding: 32px;
+}
+.main-form__container {
+}
+
+.main-form__label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5e7a7d;
+}
+
+.bill-label {
+  display: block;
+}
+
+.main-form__bill-input-field {
+  display: block;
+}
+.input-field {
+  width: 311px;
+  height: 48px;
+  border: none;
+  background-color: #f3f9fa;
+  border-radius: 5px;
+  color: var(--00474B);
+  text-align: right;
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 24px;
+  outline: none;
+  line-height: 35.54px;
+}
+
+.tip-label {
+  display: block;
+}
+
+.main-form__tip-button {
+}
+
+.button {
+}
+
+.main-form__custom-tip-button {
+}
+
+.number-label {
+  display: block;
+}
+
+.main-form__people-input-field {
+}
+
+.main-sum__container {
+  background-color: var(--00474B);
+  border-radius: 15px;
+}
+
+.main-sum__container-inside {
+}
+.main-sum__amount-container {
+}
+.main-sum__text-1 {
+}
+.main-sum__text-2 {
+}
+.main-sum__total {
+}
+.main-sum__total-container {
+}
+.reset-button {
 }
