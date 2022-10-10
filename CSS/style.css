@@ -49,6 +49,7 @@ body {
 
 .bill-label {
   display: block;
+  margin-bottom: 6px;
 }
 
 .main-form__bill-input-field {
@@ -67,23 +68,66 @@ body {
   font-size: 24px;
   outline: none;
   line-height: 35.54px;
+  margin-bottom: 32px;
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 
 .tip-label {
   display: block;
-}
-
-.main-form__tip-button {
+  margin-bottom: 16px;
 }
 
 .button {
+  width: 146.63px;
+  height: 48px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 6px 16px 0;
+  cursor: pointer;
+}
+
+.main-form__container .button:nth-of-type(2) {
+  margin-right: 0;
+}
+
+.main-form__container .button:nth-of-type(4) {
+  margin-right: 0;
+}
+
+.main-form__container .button:nth-of-type(5) {
+  margin-bottom: 32px;
+}
+
+.main-form__container .button:nth-of-type(6) {
+  margin-right: 0;
+}
+
+.main-form__tip-button {
+  background-color: var(--00474B);
+  color: var(--ffffff);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: "Space Mono";
 }
 
 .main-form__custom-tip-button {
+  background-color: #f3f9fa;
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--00474B);
 }
 
 .number-label {
   display: block;
+  margin-bottom: 6px;
 }
 
 .main-form__people-input-field {
@@ -92,19 +136,54 @@ body {
 .main-sum__container {
   background-color: var(--00474B);
   border-radius: 15px;
+  padding: 39px 22px 24px 24px;
+}
+
+.main-sum__container .main-sum__container-inside:first-child {
+  margin-bottom: 25px;
+}
+
+.main-sum__container .main-sum__container-inside:nth-of-type(2) {
+  margin-bottom: 35px;
 }
 
 .main-sum__container-inside {
+  display: flex;
+  justify-content: space-between;
 }
 .main-sum__amount-container {
 }
 .main-sum__text-1 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--ffffff);
 }
 .main-sum__text-2 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+  color: #7f9d9f;
 }
 .main-sum__total {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 47px;
+  text-align: right;
+  letter-spacing: -0.666667px;
+  color: #26c2ae;
 }
 .main-sum__total-container {
 }
+
 .reset-button {
+  width: 260px;
+  height: 48px;
+  background-color: #26c2ae;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--00474B);
+  font-family: "Space Mono";
 }
