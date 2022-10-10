@@ -1,0 +1,20 @@
+/* Styles reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Used Colors */
+
+:root {
+  --c5e4e7-main-background: hsl(185, 41%, 84%);
+}
+
+/* Main Styles */
+
+body {
+  font-family: "Space Mono";
+  background-color: var(--c5e4e7-main-background);
+}
